@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html> 
+	<head>
+		<meta charset="UTF-8">
+		<link href="Style/Styles.css" rel="stylesheet" type="text/css"/>
+		<title></title>
+	</head>
+	<body>
+		<div id = "container">
+			<div id = "head"> <?php include 'version.php'; echo $title; ?> </div>	
+			<div id="body" style = "height: 630px;">   
+				<div class="bodyContent">
+					<h1> КОМПЮТЪРИЗИРАНА СИСТЕМА</h1>
+					<h1>"О-БЕЛЯ - 911/112"  </h1><br><br><br>  
+					<h2>за автоматично и при необходимост ръчно дистанционно или локално управление на</h2> 
+					<h2>СОЛАРНА СИСТЕМА ЗА БИТОВА ГОРЕЩА ВОДА</h2>
+					<h2> И </h2>
+					<h2>ОТОПЛИТЕЛНА ДОМАШНА СИСТЕМА</h2><br><br><br><br><br><br><br><br><br>   
+					<h2>(Моля изберете желаната информация, задайте "настройка" или "команда" от бутоните по-долу)</h2><br> 
+					<h3>______Version 1.3_____03.06.2018_______________________________________________________________________________</h3>
+				</div>
+			</div>
+			<div id="menu" style="height: 110px;">
+				<div class="menuHorizontal">
+					 <ul>
+						<li><a href="index.html" title="Начало" target="_self">Начало</a></li>
+						<li><a href="scheme.php" title="Схема" target="_self">Схема</a></li>
+						<li><a href="graph_solar.php" title="Соларна с-ма" target="_self">Соларна с-ма</a></li>
+						<li><a href="graph_kotel.php" title="Отоплителна с-ма" target="_self">Отоплителна с-ма</a></li>
+						<li><a href="graph_water.php" title="Разход на вода" target="_self">Разход на вода</a></li>
+						<li><a href="commands.php" title="Команди" target="_self">Команди</a></li>
+						<li><a href="settings.php" title="Настройки" target="_self">Настройки</a></li>
+						<!-- <li><a href="weather.php" title="Времето" target="_self">Времето</a></li> -->
+					</ul>
+				</div>
+				<div id = "footer"> <?php include 'version.php'; echo $version;?> </div>
+			</div>
+		</div>
+	</body>
+</html>
+

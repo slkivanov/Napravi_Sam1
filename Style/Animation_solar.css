@@ -1,0 +1,564 @@
+body{
+    margin: 0;
+   
+    background-image: url("mont.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+    margin: 0 auto;
+    width: 1270px;
+    height: 790px;
+    border-style: solid;
+    border-color:  peachpuff;
+    border-width: 5px;
+    
+  
+	#background-color:beige;
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 14px;
+}
+
+#head {
+    width: 100%;
+    height: 30px;
+    
+	#border-style: solid;
+    #border-color:  blue;
+    #border-width: 1px;
+	
+	#margin-top: 3px;
+    background-color: peachpuff;
+    font-size: large;
+    font-weight: bold;
+    text-shadow: 3px 3px #aaffff;
+    text-decoration: underline;
+    animation: mymove 2s infinite 
+}
+@keyframes mymove {
+    30% {
+    text-decoration-color: white;        
+    }
+}
+#menu {
+    margin: 0 auto;
+	margin-top: 10px;
+	height: 95px; 
+	width: 1250px; 
+	background-position: 0 auto;
+	background-color: blanchedalmond; 
+	border-style: solid; 
+	border-color:  peachpuff; 
+	border-width: 5px;
+	#background-color: orange;
+}
+#body {
+    width: 100%;
+    height: 675px;
+    margin: 0 auto;
+	
+	#border-style: solid;
+    #border-color:  red;
+    #border-width: 1px;
+	
+	background-image: url("Solar.png");
+    background-repeat: no-repeat;
+	background-position: 0 auto;
+	background-color: #ccc;
+    overflow:auto;
+}
+#footer {
+    width: 100%;
+    margin: 0 auto;
+    margin-top:40px;
+    height: 20px;
+    background-color:black;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    padding-top: 5px;
+}
+    .menuHorizontal{
+        width: 100%;
+        height: 30px;
+    }
+        .menuHorizontal ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+            .menuHorizontal li {
+                float:left;
+            }
+                .menuHorizontal a {
+                    display: block;
+                    width: 128px;
+                    border-radius: 3px;
+                    border-style: groove;
+                    border-color: gray;
+                    border-width: 2px;
+                }
+                .menuHorizontal a:link,.menuHorizontal a:visited {
+                    font-family: Arial, Helvetica, Sans-serif;
+                    font-size: 14px;
+                    color: #222;
+                    background-color: #ccc;
+                    text-align: center;
+                    padding-top:8px;
+                    padding-bottom: 6px;
+                    text-decoration: none;
+                    margin-left: 1px;
+                    height: 16px;
+                    /*border-right: 1px;
+                    border-right-color: #000;
+                    border-right-style: solid;*/
+                }
+                .menuHorizontal a:hover,.menuHorizontal a:active {
+                    background-color: buttonhighlight;
+                    color: greenyellowy;
+                    text-decoration: underline;
+                }
+.positioning
+{
+    border-color: black;
+    position: relative; 
+    color: #00F;
+    z-index: 2; 
+    height: 400px;
+    width: 400px;
+    top: 0px;
+    left: 0px;
+   
+}
+/* Animation for Solar pump ===========================================*/
+
+div1
+{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 7px;
+    position: relative;
+    
+    -webkit-animation-name: example1; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 0s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    
+    animation-name: example1;
+    animation-duration: 12s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+div2
+{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 7px;
+    position: relative;
+    
+    -webkit-animation-name: example1; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 3s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    
+    animation-name: example1;
+    animation-duration: 12s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+div3
+{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 7px;
+    position: relative;
+    
+    -webkit-animation-name: example1; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 6s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    
+    animation-name: example1;
+    animation-duration: 12s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+div4
+{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 7px;
+    position: relative;
+    
+    -webkit-animation-name: example1; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 9s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    
+    animation-name: example1;
+    animation-duration: 12s;
+    animation-delay: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+/* Chrome, Safari, Opera */
+    @-webkit-keyframes example1 
+{
+    0%   {background-color:red; left:400px; top:98px;}
+    10%   {background-color:red; left:357px; top:98px;}
+    25%   {background-color:red; left:357px; top:328px;}
+	
+    30%   {background-color:red; left:520px; top:328px;}
+    33%   {background-color:red; left:430px; top:335px;}
+    35%   {background-color:magenta; left:520px; top:340px;}
+    37%   {background-color:blue; left:430px; top:345px;}
+    40%   {background-color:blue; left:520px; top:352px;}
+
+    60%   {background-color:blue; left:19px; top:352px;}
+    75%   {background-color:blue; left:19px; top:98px;}
+    80%   {background-color:blue; left:90px; top:98px;}
+    100%  {background-color:magenta; left:200px; top:98px;}
+} 
+
+/* Standard syntax */
+	@keyframes example1 
+{
+    0%   {background-color:red; left:280px; top:95px;}
+    10%   {background-color:red; left:347px; top:95px;}
+    25%   {background-color:red; left:347px; top:252px;}
+	
+    30%   {background-color:red; left:510px; top:250px;}
+    33%   {background-color:red; left:420px; top:255px;}
+    35%   {background-color:magenta; left:510px; top:260px;}
+    37%   {background-color:blue; left:420px; top:265px;}
+    40%   {background-color:blue; left:510px; top:275px;}
+
+    60%   {background-color:blue; left:10px; top:275px;}
+    75%   {background-color:blue; left:10px; top:77px;}
+    80%   {background-color:blue; left:90px; top:82px;}
+    100%  {background-color:magenta; left:280px; top:93px;}
+}
+
+ 
+ /* Animation for Kotel Pump =========================================*/
+ 
+div5
+{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 7px;
+    position: relative;
+    
+    -webkit-animation-name: example2; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+    
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    
+    animation-name: example2;
+    animation-duration: 12s;
+   
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}   
+div6
+{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 7px;
+    position: relative;
+    
+    -webkit-animation-name: example2; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 3s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    
+    animation-name: example2;
+    animation-duration: 12s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+} 
+div7
+{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 7px;
+    position: relative;
+    
+    -webkit-animation-name: example2; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 6s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    
+    animation-name: example2;
+    animation-duration: 12s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}   
+ div8
+{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 7px;
+    position: relative;
+    
+    -webkit-animation-name: example2; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 9s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    
+    animation-name: example2;
+    animation-duration: 12s;
+    animation-delay: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}    
+/* Chrome, Safari, Opera*/
+    @-webkit-keyframes example2 {
+    0%    {background-color:red; left:1255px; top:162px;}
+    15%   {background-color:red; left:1028px; top:162px;}
+	25%   {background-color:red; left:1028px; top:255px;}
+	35%   {background-color:red; left:895px; top:255px;}
+	
+	40%   {background-color:red; left:995px; top:260px;}
+	45%   {background-color:magenta; left:895px; top:265x;}
+    50%   {background-color:blue; left:995px; top:270px;}
+    55%   {background-color:blue; left:895px; top:276px;}
+
+    75%   {background-color:blue; left:1255px; top:278px;}
+    100%  {background-color:red; left:1255px; top:162px;}
+} 	
+
+ /*Standard syntax*/ 
+	@keyframes example2 {
+    0%    {background-color:red; left:1255px; top:162px;}
+    15%   {background-color:red; left:1028px; top:162px;}
+	25%   {background-color:red; left:1028px; top:255px;}
+	35%   {background-color:red; left:895px; top:255px;}
+	
+	40%   {background-color:red; left:995px; top:260px;}
+	45%   {background-color:magenta; left:895px; top:265x;}
+    50%   {background-color:blue; left:995px; top:270px;}
+    55%   {background-color:blue; left:895px; top:276px;}
+
+    75%   {background-color:blue; left:1255px; top:278px;}
+    100%  {background-color:red; left:1255px; top:162px;}
+} 	
+ 
+/* Animation for Circulation Pump ====================================*/
+div9
+{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 7px;
+    position: relative;
+    
+    -webkit-animation-name: example3; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+    
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    
+    animation-name: example3;
+    animation-duration: 12s;
+   
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}   
+div10
+{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 7px;
+    position: relative;
+    
+    -webkit-animation-name: example3; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    
+    animation-name: example3;
+    animation-duration: 12s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+} 
+div11
+{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 7px;
+    position: relative;
+    
+    -webkit-animation-name: example3; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    
+    animation-name: example3;
+    animation-duration: 12s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}   
+ div12
+{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 7px;
+    position: relative;
+    
+    -webkit-animation-name: example3; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 6s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    
+    animation-name: example3;
+    animation-duration: 12s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}    
+
+div13
+{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 7px;
+    position: relative;
+    
+    -webkit-animation-name: example3; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 18s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    
+    animation-name: example3;
+    animation-duration: 12s;
+    animation-delay: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}    
+div14
+{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 7px;
+    position: relative;
+    
+    -webkit-animation-name: example3; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 12s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 10s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    
+    animation-name: example3;
+    animation-duration: 12s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}    
+/* Chrome, Safari, Opera */
+    @-webkit-keyframes example3 {
+    0%   {background-color:red; left:443px; top:173px;}
+    10%  {background-color:red; left:443px; top:433px;}
+	25%  {background-color:red; left:968px; top:433px;}
+    45%  {background-color:magenta; left:968px; top:173px;}
+    50%  {background-color:magenta; left:922px; top:173px;}
+    65%  {background-color:blue; left:922px; top:397px;}
+    80%  {background-color:blue; left:493px; top:397px;}
+    90%  {background-color:magenta; left:493px; top:173px;}
+    100% {background-color:red; left:443px; top:173px;}
+} 	
+
+/* Standard syntax */
+	@keyframes example3 {
+	0%   {background-color:red; left:443px; top:173px;}
+    10%  {background-color:red; left:443px; top:433px;}
+	25%  {background-color:red; left:968px; top:433px;}
+    45%  {background-color:magenta; left:968px; top:173px;}
+    50%  {background-color:magenta; left:922px; top:173px;}
+    65%  {background-color:blue; left:922px; top:397px;}
+    80%  {background-color:blue; left:493px; top:397px;}
+    90%  {background-color:magenta; left:493px; top:173px;}
+    100% {background-color:red; left:443px; top:173px;}
+} 	
+
+/* Animation_'Pumps_Rotation=========================================*/
+
+div_rotator {
+    width: 50px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+    animation-name: example4;
+    animation-duration: .3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example4 {
+    0%   {background-color:red; transform: rotate(20deg);}
+    12.5%	 {background-color:violet; transform: rotate(40deg);}
+    
+    25%  {background-color:orange; transform: rotate(60deg);}
+    37.5%	 {background-color:yellow; transform: rotate(80deg);}
+    
+    50%  {background-color:white; transform: rotate(100deg);}
+    62.5%	{background-color:yellow; transform: rotate(120deg);}
+    
+    75%  {background-color:orange; transform: rotate(140deg);}
+    87.5%	{background-color:violet; transform: rotate(160deg);}
+    100% {background-color:red; transform: rotate(180deg);}
+}
+
+/* Standard syntax */
+@keyframes example4 {
+    0%   {background-color:red; transform: rotate(20deg);}
+    12.5%	 {background-color:violet; transform: rotate(40deg);}
+    
+    25%  {background-color:orange; transform: rotate(60deg);}
+    37.5%	 {background-color:yellow; transform: rotate(80deg);}
+    
+    50%  {background-color:white; transform: rotate(100deg);}
+    62.5%	{background-color:yellow; transform: rotate(120deg);}
+    
+    75%  {background-color:orange; transform: rotate(140deg);}
+    87.5%	{background-color:violet; transform: rotate(160deg);}
+    100% {background-color:red; transform: rotate(180deg);}
+}
+
+
